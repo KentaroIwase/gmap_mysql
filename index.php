@@ -18,7 +18,7 @@
 		};
 		map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-        //イベント登録　地図の表示領域が変更されたらイベントを発生させる
+        //イベント登録 地図の表示領域が変更されたらイベントを発生させる
         google.maps.event.addListener(map, 'idle', function(){
         	setPointMarker();
         });
@@ -141,6 +141,7 @@
 }
 </script>
 </head>
+<!-- test -->
 <body onload="initialize()">
 	<div id="pointlist" style="width:20em;float:left;">
 		<ul>
