@@ -149,11 +149,6 @@
 	</div>
 	<div style="float:left;">
 		<div id="map_canvas" style="width:600px; height:600px"></div>
-		<div>
-			経度<input type="text" size="20" id="ido" value="" />
-			緯度<input type="text" size="20" id="keido" value="" />
-			<input type="button" value="地図中央の緯度経度" onclick="getMapcenter()" onkeypress="getMapcenter()" />
-			<div>
-			</div>
-		</body>
-		</html>
+	</div>
+</body>
+</html>
