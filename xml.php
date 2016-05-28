@@ -1,9 +1,11 @@
 <?php
 ini_set( 'display_errors', 1 );
+
 define('DB_DATABASE', 'googlemap_db');
 define('DB_USERNAME', 'dbuser');
 define('DB_PASSWORD', 'REkdEiww4');
 define('PDO_DSN', 'mysql:dbhost=localhost;dbname=' . DB_DATABASE);
+
 try {
   // connect
   $db = new PDO(PDO_DSN, DB_USERNAME, DB_PASSWORD);
@@ -13,11 +15,13 @@ try {
   {
     $locate_ary[]=$room;
   }
+
 } catch (PDOException $e) {
   echo $e->getMessage();
   exit;
 }
 //地点データ
+
 //範囲データ取得
 $ne_lat = $_GET["ne_lat"];
 $sw_lat = $_GET["sw_lat"];

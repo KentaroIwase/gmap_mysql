@@ -1,5 +1,9 @@
 create database googlemap_db;
+<<<<<<< HEAD
 grant all on googlemap_db.* to dbuser@localhost identified by 'REkdEiww4';
+=======
+grant all on googlemap_db.* to dbuser@localhost identified by 'IHrseLo3n';
+>>>>>>> 8c3b5165e5c076225876f37bd24f237bb0a552a5
 
 use googlemap_db;
 
