@@ -2,7 +2,7 @@
 ini_set( 'display_errors', 1 );
 define('DB_DATABASE', 'googlemap_db');
 define('DB_USERNAME', 'dbuser');
-define('DB_PASSWORD', 'IHrseLo3n');
+define('DB_PASSWORD', 'REkdEiww4');
 define('PDO_DSN', 'mysql:dbhost=localhost;dbname=' . DB_DATABASE);
 try {
   // connect
